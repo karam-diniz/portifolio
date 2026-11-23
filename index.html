@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karam Diniz — Portfólio de UI/UX, Front-end &amp; Design</title>
+  <meta name="description" content="Portfólio acadêmico e profissional de Karam Diniz — Professor, Designer Gráfico, UI/UX Designer e estudante de Desenvolvimento de Software Multiplataforma na FATEC SJC.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#sobre" class="brand-link" aria-label="Início — Karam Design">
+        <img src="assets/logo/mark-cream.svg" alt="Logo Karam Design" class="brand-mark brand-mark--dark">
+        <img src="assets/logo/mark-charcoal.svg" alt="Logo Karam Design" class="brand-mark brand-mark--light">
+        <span class="brand-wordmark">Karam Design</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#sobre" class="nav-link is-active">Sobre</a></li>
+          <li><a href="#projeto-api" class="nav-link">Projeto API</a></li>
+          <li><a href="#projetos-profissionais" class="nav-link">Profissional</a></li>
+          <li><a href="#projetos-pessoais" class="nav-link">Pessoais</a></li>
+          <li><a href="#curriculo" class="nav-link">Currículo</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" id="themeToggle" aria-label="Alternar tema"></button>
+        <button type="button" class="icon-btn menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section section--hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-badge">
+            <span class="hero-dot"></span>
+            Portfólio Acadêmico &amp; Profissional
+          </span>
+
+          <h1 class="hero-title">Karam Diniz</h1>
+          <p class="hero-role">Professor de Tecnologia &amp; Design • Designer Gráfico • UI/UX &amp; Front-end</p>
+
+          <p class="hero-objective">
+            Estudante de Desenvolvimento de Software Multiplataforma na FATEC São José dos Campos e em especialização em UI &amp; UX Design pela Origamid. Meu objetivo é atuar com UI/UX Design, Desenvolvimento Front-end e Design, unindo sensibilidade visual, organização de interface e código bem estruturado para construir produtos digitais claros e funcionais.
+          </p>
+
+          <div class="hero-meta-grid">
+            <div class="meta-box">
+              <span class="meta-box__label">Formação Atual</span>
+              <span class="meta-box__value">FATEC SJC — DSM</span>
+            </div>
+            <div class="meta-box">
+              <span class="meta-box__label">Especialização</span>
+              <span class="meta-box__value">Origamid — UI &amp; UX Design</span>
+            </div>
+          </div>
+
+          <div class="hero-interests" aria-label="Áreas de interesse">
+            <span class="pill-tag">UI &amp; UX Design</span>
+            <span class="pill-tag">Desenvolvimento Front-end</span>
+            <span class="pill-tag">Design Systems</span>
+            <span class="pill-tag">Identidade Visual</span>
+            <span class="pill-tag">Software Multiplataforma</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projetos-profissionais" class="btn btn--primary">Ver trabalhos de Design &amp; UI</a>
+            <a href="#projeto-api" class="btn btn--outline">Explorar Projeto API</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo-frame">
+          <img src="assets/img/profile/karam-diniz.jpg" alt="Retrato profissional de Karam Diniz" class="hero-photo">
+          <figcaption class="hero-photo-caption">
+            <div>
+              <p class="hero-photo-caption__name">Karam Diniz</p>
+              <p class="hero-photo-caption__sub">São José dos Campos — SP</p>
+            </div>
+            <img src="assets/logo/mark-cream.svg" alt="Símbolo Karam Design" class="hero-photo-caption__mark">
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="projeto-api" class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="eyebrow">2.1 • Projeto Acadêmico (API — FATEC SJC)</span>
+          <h2 class="section-title">Kredita — Inteligência Territorial de Crédito</h2>
+          <p class="section-lead">
+            Aprendizagem por Projetos Integrados desenvolvida no 1º semestre do curso de Desenvolvimento de Software Multiplataforma, utilizando metodologia ágil Scrum e dados econômicos públicos.
+          </p>
+        </header>
+
+        <article class="api-card reveal">
+          <div class="api-card__top">
+            <div>
+              <span class="pill-tag">API • 1º Semestre DSM</span>
+              <h3 class="api-card__title">Kredita</h3>
+              <p class="api-card__partner">Empresa parceira: Parceiro fictício (cenário acadêmico FATEC SJC)</p>
+            </div>
+            <a href="https://github.com/karam-diniz/KREDITA" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0.5C5.65 0.5 0.5 5.65 0.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.26 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35 0.5 12 0.5z"></path>
+              </svg>
+              Repositório no GitHub (Fork)
+            </a>
+          </div>
+
+          <div class="api-grid">
+            <div class="api-block api-block--full">
+              <h4 class="api-block__title">Situação-Problema</h4>
+              <p class="api-block__text">
+                Conceder crédito para populações historicamente recusadas por grandes instituições financeiras exige ir além da visão tradicional de risco: exige identificar onde residem o consumo reprimido e a capacidade real de pagamento sustentável. Neste projeto, o objetivo foi explorar e transformar dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
+              </p>
+            </div>
+
+            <div class="api-block">
+              <h4 class="api-block__title">Solução Desenvolvida</h4>
+              <p class="api-block__text">
+                Aplicação web com cálculo de score regional de oportunidade de crédito, integrando bases públicas do Banco Central (SGS, SCR.data, Olinda), IBGE (SIDRA), Novo CAGED e CGU. Os indicadores são tratados em Python e disponibilizados via API REST em Flask para visualização clara em interface web responsiva.
+              </p>
+            </div>
+
+            <div class="api-block">
+              <h4 class="api-block__title">Contribuições Pessoais</h4>
+              <ul class="api-list">
+                <li>Estruturação da interface web com foco em usabilidade, clareza na leitura de indicadores e responsividade.</li>
+                <li>Desenvolvimento de componentes front-end e integração visual com o fluxo de consultas da API.</li>
+                <li>Colaboração nas cerimônias Scrum, organização de backlog e revisões de entrega entre sprints.</li>
+              </ul>
+            </div>
+
+            <div class="api-block">
+              <h4 class="api-block__title">Hard Skills Adquiridas</h4>
+              <ul class="api-list">
+                <li>Desenvolvimento front-end responsivo com HTML5, CSS3, Bootstrap 5 e JavaScript.</li>
+                <li>Integração entre front-end e API REST construída com Python e Flask.</li>
+                <li>Exploração e tratamento de dados públicos com Python no Google Colab.</li>
+                <li>Versionamento colaborativo em equipe utilizando Git e GitHub.</li>
+              </ul>
+            </div>
+
+            <div class="api-block">
+              <h4 class="api-block__title">Soft Skills Exercitadas</h4>
+              <ul class="api-list">
+                <li>Trabalho em equipe multidisciplinar com divisão clara de responsabilidades em Scrum.</li>
+                <li>Comunicação técnica para alinhar requisitos de interface, regras de negócio e dados.</li>
+                <li>Gestão de tempo, priorização por sprint e resolução colaborativa de problemas.</li>
+              </ul>
+            </div>
+
+            <div class="api-block api-block--full">
+              <h4 class="api-block__title">Tecnologias Utilizadas</h4>
+              <div class="tech-stack">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Flask</span>
+                <span class="pill-tag">HTML5</span>
+                <span class="pill-tag">CSS3</span>
+                <span class="pill-tag">JavaScript</span>
+                <span class="pill-tag">Bootstrap 5</span>
+                <span class="pill-tag">Google Colab</span>
+                <span class="pill-tag">APIs BCB &amp; IBGE</span>
+                <span class="pill-tag">Git &amp; GitHub</span>
+                <span class="pill-tag">Scrum</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos-profissionais" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="eyebrow">2.2 • Trajetória &amp; Projetos Profissionais</span>
+          <h2 class="section-title">Atuação como Professor e Designer</h2>
+          <p class="section-lead">
+            Experiência prática em sala de aula formando alunos em tecnologia e design, combinada à entrega de interfaces digitais e sistemas de identidade visual para clientes reais.
+          </p>
+        </header>
+
+        <div class="experience-grid reveal">
+          <article class="exp-card">
+            <div class="exp-card__header">
+              <div>
+                <h3 class="exp-card__role">Professor de Informática &amp; Design</h3>
+                <p class="exp-card__org">Microcamp — São José dos Campos</p>
+              </div>
+              <span class="exp-card__badge">Docência</span>
+            </div>
+            <p class="exp-card__desc">
+              Ministro aulas práticas e orientadas a projetos para jovens (10 a 18 anos) e público sênior, conduzindo desde fundamentos digitais e produtividade até design gráfico, prototipação de interfaces e programação web.
+            </p>
+            <div class="tech-stack" id="microcampTopics" aria-label="Conteúdos lecionados na Microcamp"></div>
+          </article>
+
+          <article class="exp-card">
+            <div class="exp-card__header">
+              <div>
+                <h3 class="exp-card__role">Designer Gráfico &amp; UI/UX Designer</h3>
+                <p class="exp-card__org">Karam Design — Projetos Independentes</p>
+              </div>
+              <span class="exp-card__badge">Design</span>
+            </div>
+            <p class="exp-card__desc">
+              Criação de interfaces digitais, sistemas de identidade visual, manuais de marca completos, papelaria técnica para impressão e embalagens para empresas de tecnologia, engenharia civil, varejo de moda, finanças e projetos sociais.
+            </p>
+            <div class="tech-stack">
+              <span class="pill-tag">UI Design</span>
+              <span class="pill-tag">Design Systems</span>
+              <span class="pill-tag">Identidade Visual</span>
+              <span class="pill-tag">Manuais de Marca</span>
+              <span class="pill-tag">Packaging</span>
+              <span class="pill-tag">Fechamento Gráfico</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-header section-header--split reveal">
+          <div>
+            <span class="eyebrow">Galeria de Trabalhos Reais</span>
+            <h3 class="section-title">UI / UX &amp; Identidade Visual</h3>
+          </div>
+
+          <div class="filter-bar" role="group" aria-label="Filtrar projetos por categoria">
+            <button type="button" class="filter-btn is-active" data-filter="ui-ux" aria-pressed="true">UI / UX &amp; Sistemas</button>
+            <button type="button" class="filter-btn" data-filter="branding" aria-pressed="false">Identidade Visual</button>
+            <button type="button" class="filter-btn" data-filter="all" aria-pressed="false">Todos (12)</button>
+          </div>
+        </div>
+
+        <div class="projects-grid reveal" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="projetos-pessoais" class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="eyebrow">2.3 • Projetos Pessoais</span>
+          <h2 class="section-title">Código, Marca Própria e Experimentos</h2>
+          <p class="section-lead">
+            Iniciativas autorais que conectam desenvolvimento front-end, identidade visual e estudos contínuos em programação multiplataforma.
+          </p>
+        </header>
+
+        <div class="personal-grid reveal">
+          <article class="personal-card">
+            <div class="brand-showcase">
+              <div class="brand-tile">
+                <img src="assets/logo/logo-dark.svg" alt="Karam Design versão grafite escuro">
+              </div>
+              <div class="brand-tile">
+                <img src="assets/logo/logo-light.svg" alt="Karam Design versão creme suave">
+              </div>
+            </div>
+            <span class="project-card__cat">Branding Autoral &amp; UI</span>
+            <h3 class="personal-card__title">Karam Design — Sistema de Marca</h3>
+            <p class="personal-card__desc">
+              Monograma geométrico autoral em SVG construído com paleta própria (#1D1D1B e #FFFEDE) e tipografia Montserrat, aplicado diretamente como base visual e alternância de tema deste portfólio.
+            </p>
+            <a href="#sobre" class="personal-card__link">Aplicado ao vivo neste site &uarr;</a>
+          </article>
+
+          <article class="personal-card">
+            <span class="project-card__cat">Front-end Responsivo</span>
+            <h3 class="personal-card__title">Kuro Café</h3>
+            <p class="personal-card__desc">
+              Website institucional multi-páginas desenvolvido com HTML5, CSS3 e Bootstrap 5, com foco em grid responsivo, navegação consistente entre páginas e publicação estática via GitHub Pages.
+            </p>
+            <div class="tech-stack">
+              <span class="pill-tag">HTML5</span>
+              <span class="pill-tag">CSS3</span>
+              <span class="pill-tag">Bootstrap 5</span>
+              <span class="pill-tag">GitHub Pages</span>
+            </div>
+            <a href="https://github.com/karam-diniz" target="_blank" rel="noopener noreferrer" class="personal-card__link">Ver no GitHub &rarr;</a>
+          </article>
+
+          <article class="personal-card">
+            <span class="project-card__cat">Software &amp; Automação</span>
+            <h3 class="personal-card__title">Laboratório no GitHub</h3>
+            <p class="personal-card__desc">
+              Repositórios públicos com exercícios de lógica em Python, interfaces web, automação de rotinas e utilitários desktop voltados à produtividade e aprendizado contínuo.
+            </p>
+            <div class="tech-stack">
+              <span class="pill-tag">Python</span>
+              <span class="pill-tag">JavaScript</span>
+              <span class="pill-tag">C# / .NET</span>
+              <span class="pill-tag">Linux &amp; Git</span>
+            </div>
+            <a href="https://github.com/karam-diniz" target="_blank" rel="noopener noreferrer" class="personal-card__link">Acessar github.com/karam-diniz &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="curriculo" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="eyebrow">3 • Informações Curriculares</span>
+          <h2 class="section-title">Formação, Idiomas e Competências</h2>
+          <p class="section-lead">
+            Qualificações relevantes à graduação em Desenvolvimento de Software Multiplataforma, com níveis avaliados em escala objetiva de 1 a 5.
+          </p>
+        </header>
+
+        <div class="curriculum-grid reveal">
+          <article class="info-panel">
+            <h3 class="info-panel__title">Formação &amp; Cursos</h3>
+            <div class="edu-list">
+              <div class="edu-item">
+                <p class="edu-item__course">Desenvolvimento de Software Multiplataforma (DSM)</p>
+                <p class="edu-item__inst">FATEC São José dos Campos — Prof. Jessen Vidal</p>
+                <span class="edu-item__status">Graduação Tecnológica • Em andamento</span>
+              </div>
+              <div class="edu-item">
+                <p class="edu-item__course">UI Design &amp; UX Design</p>
+                <p class="edu-item__inst">Origamid</p>
+                <span class="edu-item__status">Especialização em Design de Interfaces</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="info-panel">
+            <h3 class="info-panel__title">Idiomas — Inglês Avançado</h3>
+            <div class="rating-list" id="englishSkillsList"></div>
+            <p class="scale-legend">
+              <span>Escala objetiva de 0 a 5 conforme proficiência prática em leitura, escuta, conversação e escrita.</span>
+            </p>
+          </article>
+
+          <article class="info-panel info-panel--full">
+            <h3 class="info-panel__title">Competências Técnicas (Hard Skills)</h3>
+            <div class="skills-columns" id="hardSkillsList"></div>
+            <div class="scale-legend" aria-label="Legenda da escala de proficiência">
+              <span><strong>1:</strong> Noções iniciais</span>
+              <span><strong>2:</strong> Básico em evolução</span>
+              <span><strong>3:</strong> Autônomo</span>
+              <span><strong>4:</strong> Avançado</span>
+              <span><strong>5:</strong> Fluente</span>
+            </div>
+          </article>
+
+          <article class="info-panel info-panel--full">
+            <h3 class="info-panel__title">Competências Comportamentais (Soft Skills)</h3>
+            <div class="soft-skills-grid">
+              <div class="soft-skill-item">
+                <h4 class="soft-skill-item__title">Didática e Comunicação Clara</h4>
+                <p class="soft-skill-item__desc">Experiência diária traduzindo conceitos técnicos de design e programação para diferentes públicos.</p>
+              </div>
+              <div class="soft-skill-item">
+                <h4 class="soft-skill-item__title">Colaboração Ágil (Scrum)</h4>
+                <p class="soft-skill-item__desc">Vivência em ciclos iterativos, alinhamento de backlog e entregas conjuntas em equipe.</p>
+              </div>
+              <div class="soft-skill-item">
+                <h4 class="soft-skill-item__title">Visão Integrada Design &amp; Código</h4>
+                <p class="soft-skill-item__desc">Capacidade de projetar interfaces no Figma já considerando estrutura HTML, CSS e viabilidade técnica.</p>
+              </div>
+              <div class="soft-skill-item">
+                <h4 class="soft-skill-item__title">Organização e Autonomia</h4>
+                <p class="soft-skill-item__desc">Foco em padronização visual, documentação de marca e melhoria contínua de processos.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="contact-box__copy">
+            <span class="eyebrow">4 • Contato</span>
+            <h2 class="section-title">Vamos conversar sobre UI/UX, Front-end ou Design</h2>
+            <p class="section-lead">
+              Acompanhe meus repositórios de código no GitHub ou conecte-se comigo pelo LinkedIn para oportunidades e projetos.
+            </p>
+          </div>
+
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/karam-diniz/" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.83v1.64h.05c.53-1.01 1.84-2.08 3.79-2.08 4.05 0 4.8 2.67 4.8 6.13V21h-4v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95V21h-4V9z"></path>
+              </svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/karam-diniz" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0.5C5.65 0.5 0.5 5.65 0.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.26 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35 0.5 12 0.5z"></path>
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#sobre" class="brand-link" aria-label="Voltar ao topo">
+        <img src="assets/logo/mark-cream.svg" alt="Logo Karam Design" class="brand-mark brand-mark--dark">
+        <img src="assets/logo/mark-charcoal.svg" alt="Logo Karam Design" class="brand-mark brand-mark--light">
+        <span class="brand-wordmark">Karam Diniz</span>
+      </a>
+      <p class="footer-note">Portfólio Acadêmico DSM — FATEC São José dos Campos • Publicado via GitHub Pages</p>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <p class="modal-subtitle" id="modalCategory"></p>
+          <h3 class="modal-title" id="modalTitle"></h3>
+        </div>
+        <button type="button" class="icon-btn" id="modalClose" aria-label="Fechar visualização">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="gallery-stage">
+          <div class="gallery-main">
+            <button type="button" class="gallery-nav gallery-nav--prev" id="modalPrev" aria-label="Imagem anterior">&#8592;</button>
+            <img id="modalMainImage" src="" alt="">
+            <button type="button" class="gallery-nav gallery-nav--next" id="modalNext" aria-label="Próxima imagem">&#8594;</button>
+          </div>
+          <div class="gallery-caption-bar">
+            <span id="modalCaption"></span>
+            <span id="modalCounter"></span>
+          </div>
+          <div class="gallery-thumbs" id="modalThumbs"></div>
+        </div>
+
+        <div class="modal-details">
+          <div>
+            <p class="detail-block__label">Visão Geral</p>
+            <p class="detail-block__text" id="modalDescription"></p>
+          </div>
+
+          <div>
+            <p class="detail-block__label">Entregáveis</p>
+            <ul class="api-list" id="modalDeliverables"></ul>
+          </div>
+
+          <div>
+            <p class="detail-block__label">Tipografia</p>
+            <p class="detail-block__text" id="modalTypography"></p>
+          </div>
+
+          <div>
+            <p class="detail-block__label">Paleta de Cores (clique para copiar)</p>
+            <div class="palette-chips" id="modalPalette"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
